@@ -1,0 +1,14 @@
+[project]
+name = "sunderland-bin-collection-email"
+version = "0.1.0"
+description = "Sends an email to the user showing Sunderland Council bin collection types and dates"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "autopep8>=2.3.2",
+    "bandit>=1.8.6",
+    "flake8>=7.3.0",
+    "httpx>=0.28.1",
+    "python-dotenv>=1.1.1",
+    "selenium>=4.34.2",
+]
