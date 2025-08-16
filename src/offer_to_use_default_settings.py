@@ -4,7 +4,3 @@ def offer_to_use_default_settings():
     while response.lower() not in ["y", "n"]:
         response = input("Please enter 'y' or 'n': ")
     return response
-    if response.lower() == "y":
-        print("Using default settings:")
-    else:
-        print("Please provide your custom settings.")
