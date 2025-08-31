@@ -28,9 +28,12 @@ GMAIL_APP_PASSWORD = "XXXXXXXXXXXXXXXX"
 
 ## Usage
 To run:
+```
 $ python ./src/main.py
+```
 or if using uv:
+```
 $ uv run ./src/main.py
-
+```
 
 
