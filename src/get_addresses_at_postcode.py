@@ -14,4 +14,3 @@ def get_addresses(driver, url, postcode):
     address_values = [address.text for index, address
                       in enumerate(address_elements) if index > 0]
     return address_values
-    # return driver.page_source
